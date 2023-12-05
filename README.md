@@ -28,9 +28,6 @@ This project is used as a playground for testing ssh connections between GitHub 
     smudge = git-lfs smudge -- %f
     process = git-lfs filter-process
     required = true
-  [http]
-    sslBackend = openssl
-    sslCAInfo = C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
   [core]
     autocrlf = true
     symlinks = false
@@ -66,3 +63,7 @@ This project is used as a playground for testing ssh connections between GitHub 
 | Connection | Clone | Push  | Pull  | Comment                                                           |
 | :---       | :---: | :---: | :---: | :---                                                              |
 | ssh        |   X   |   X   |   X   | SSH key must be generated with: ssh-keygen -t ecdsa -b 256 -m PEM |
+
+## Links
+
+* [Git Configuration Variables](https://git-scm.com/docs/git-config#_variables)
