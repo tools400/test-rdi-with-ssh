@@ -2,6 +2,16 @@
 
 This project is used as a playground for testing ssh connections between GitHub and IBM's development IDEs for RPG.
 
+## Generating SSH Key
+
+For security reasons GitHub dropped insecure keys type on March 15, 2022. Since then user have to use **ed25519** keys. Such keys can be generated like this:
+
+```bash
+ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+
+Replace the email used in the example with your GitHub email address.
+
 ## Testing RDi 9.5.1.3
 
 * eGit Plug-in
