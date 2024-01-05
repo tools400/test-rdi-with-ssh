@@ -64,6 +64,8 @@ This project is used as a playground for testing ssh connections between GitHub 
 | :---       | :---: | :---: | :---: | :---                                                              |
 | ssh        |   X   |   X   |   X   | SSH key must be generated with: ssh-keygen -t ecdsa -b 256 -m PEM |
 
+---
+
 ## Links
 
 * [Git Configuration Variables](https://git-scm.com/docs/git-config#_variables)
